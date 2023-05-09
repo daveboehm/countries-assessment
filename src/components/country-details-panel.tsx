@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CountryDetails } from '../types';
+
 export const CountryDetailsPanel = (props: CountryDetails) => {
   const { countryName, countryCode, capital, capitalPopulation, currency, isLoading = false } = props;
   return (

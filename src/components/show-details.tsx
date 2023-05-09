@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useCallback } from 'react';
 import { FormattedCountriesType } from '../types';
 import { fetchCapitalCityData } from '../service/countries';
 import { emptyCountryDetails } from '../constants';
@@ -12,7 +12,7 @@ export const ShowDetails = (props: ShowDetailsProps) => {
   const { data, onClick: setSelectedCountry } = props;
   const { capital, countryCode, countryName, currency } = data;
 
-  const handleClick = async () => {
+  const handleClick = useCallback(async () => {
     setSelectedCountry({ isLoading: true });
     try {
       const capitalPopulation: number = await fetchCapitalCityData(capital);
@@ -33,7 +33,7 @@ export const ShowDetails = (props: ShowDetailsProps) => {
         countryName: `Could not fetch data for ${capital}`
       });
     }
-  };
+  }, [capital]);
 
   return (
     <button type="button" className="show-details-button" onClick={() => handleClick()}>

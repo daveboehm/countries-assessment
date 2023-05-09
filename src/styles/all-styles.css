@@ -15,6 +15,7 @@ html {
 .up {
   border-bottom: 5px solid #999;
 }
+
 .down {
   border-top: 5px solid #999;
 }
@@ -32,11 +33,13 @@ html {
   cursor: pointer;
   width: 100%;
 }
+
 .sortable-header button:hover,
 .sortable-header button:focus {
   color: #111;
   transition: 150ms;
 }
+
 .sortable-header button.active-sort {
   color: #5a5;
 }
@@ -53,6 +56,7 @@ html {
   width: 100%;
   margin: 20px auto;
 }
+
 .scroller {
   width: 580px;
   flex-shrink: 0;
@@ -62,27 +66,34 @@ html {
   border: 1px solid #999;
   border-radius: 2px;
 }
+
 .table {
   width: 100%;
   border-collapse: collapse;
   border-right: 1px solid #999;
 }
+
 .row.selected {
   background-color: #9d9 !important;
 }
+
 .row {
   border-bottom: 1px solid #999;
 }
+
 .row:nth-child(even) {
   background-color: #eaeaea;
 }
+
 .col {
   padding: 8px 10px;
   text-align: left;
 }
+
 .population {
   text-align: right;
 }
+
 .data-display-wrapper {
   display: flex;
 }
@@ -94,6 +105,7 @@ html {
   padding: 20px;
   display: flex;
   flex-grow: 1;
+  max-width: 400px;
   height: 200px;
   justify-content: space-around;
   align-items: center;
@@ -105,6 +117,7 @@ html {
   overflow: hidden;
   min-width: 150px;
 }
+
 .spinning-thing {
   width: 40px;
   height: 2px;
