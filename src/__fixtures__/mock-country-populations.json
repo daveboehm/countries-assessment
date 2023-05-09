@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "country": "Canada",
+      "code": "CAN",
+      "iso3": "CAN",
+      "populationCounts": [
+        {
+          "year": 2017,
+          "value": 499
+        },
+        {
+          "year": 2018,
+          "value": 500
+        }
+      ]
+    },
+    {
+      "country": "Papua New Guinea",
+      "code": "PNG",
+      "iso3": "PNG",
+      "populationCounts": [
+        {
+          "year": 2017,
+          "value": 399
+        },
+        {
+          "year": 2018,
+          "value": 400
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL",
+      "iso3": "BEL",
+      "populationCounts": [
+        {
+          "year": 2017,
+          "value": 999
+        },
+        {
+          "year": 2018,
+          "value": 1000
+        }
+      ]
+    }
+  ],
+  "error": false,
+  "msg": "some mock success message"
+}

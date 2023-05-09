@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should display selected country's details 1`] = `
+<div>
+  <div>
+    <div
+      class="countries-list-wrapper"
+    >
+      <input
+        class="filter"
+        data-testid="filter-input"
+        placeholder="Filter by country name or code"
+        type="text"
+      />
+      <div
+        class="data-display-wrapper"
+      >
+        <div
+          class="scroller"
+        >
+          <table
+            class="table"
+          >
+            <thead>
+              <tr
+                class="headers row"
+              >
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class="active-sort"
+                      type="button"
+                    >
+                      Name
+                       
+                      <span
+                        class="arrow down"
+                      />
+                    </button>
+                  </div>
+                </th>
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class=""
+                      type="button"
+                    >
+                      Code
+                       
+                      <span
+                        class="arrow"
+                      />
+                    </button>
+                  </div>
+                </th>
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class=""
+                      type="button"
+                    >
+                      Population
+                       
+                      <span
+                        class="arrow"
+                      />
+                    </button>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="row "
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Belgium
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  BEL
+                </td>
+                <td
+                  class="col population"
+                >
+                  1,000
+                </td>
+              </tr>
+              <tr
+                class="row selected"
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Canada
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  CAN
+                </td>
+                <td
+                  class="col population"
+                >
+                  500
+                </td>
+              </tr>
+              <tr
+                class="row "
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Papua New Guinea
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  PNG
+                </td>
+                <td
+                  class="col population"
+                >
+                  400
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="country-details-panel"
+          data-testid="details-panel"
+        >
+          <table
+            class="country-details"
+          >
+            <tbody>
+              <tr>
+                <td>
+                  <b>
+                    Country Name:
+                  </b>
+                </td>
+                <td>
+                  Canada
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Country Code:
+                  </b>
+                </td>
+                <td>
+                  CAN
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Capital City:
+                  </b>
+                </td>
+                <td>
+                  Ottawa
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Capital Population:
+                  </b>
+                </td>
+                <td>
+                  883,395
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Currency:
+                  </b>
+                </td>
+                <td>
+                  CAD
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App /> should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="countries-list-wrapper"
+    >
+      <input
+        class="filter"
+        data-testid="filter-input"
+        placeholder="Filter by country name or code"
+        type="text"
+      />
+      <div
+        class="data-display-wrapper"
+      >
+        <div
+          class="scroller"
+        >
+          <table
+            class="table"
+          >
+            <thead>
+              <tr
+                class="headers row"
+              >
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class="active-sort"
+                      type="button"
+                    >
+                      Name
+                       
+                      <span
+                        class="arrow down"
+                      />
+                    </button>
+                  </div>
+                </th>
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class=""
+                      type="button"
+                    >
+                      Code
+                       
+                      <span
+                        class="arrow"
+                      />
+                    </button>
+                  </div>
+                </th>
+                <th
+                  class="col"
+                >
+                  <div
+                    class="sortable-header"
+                  >
+                    <button
+                      class=""
+                      type="button"
+                    >
+                      Population
+                       
+                      <span
+                        class="arrow"
+                      />
+                    </button>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="row "
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Belgium
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  BEL
+                </td>
+                <td
+                  class="col population"
+                >
+                  1,000
+                </td>
+              </tr>
+              <tr
+                class="row "
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Canada
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  CAN
+                </td>
+                <td
+                  class="col population"
+                >
+                  500
+                </td>
+              </tr>
+              <tr
+                class="row "
+              >
+                <td
+                  class="col countryName"
+                >
+                  <button
+                    class="show-details-button"
+                    type="button"
+                  >
+                    Papua New Guinea
+                  </button>
+                </td>
+                <td
+                  class="col countryCode"
+                >
+                  PNG
+                </td>
+                <td
+                  class="col population"
+                >
+                  400
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="country-details-panel"
+          data-testid="details-panel"
+        >
+          <table
+            class="country-details"
+          >
+            <tbody>
+              <tr>
+                <td>
+                  <b>
+                    Country Name:
+                  </b>
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Country Code:
+                  </b>
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Capital City:
+                  </b>
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Capital Population:
+                  </b>
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b>
+                    Currency:
+                  </b>
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

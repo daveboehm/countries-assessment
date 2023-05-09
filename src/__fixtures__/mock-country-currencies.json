@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Belgium",
+      "currency": "EUR",
+      "iso2": "BE",
+      "iso3": "BEL"
+    },
+    {
+      "name": "Canada",
+      "currency": "CAD",
+      "iso2": "CA",
+      "iso3": "CAN"
+    },
+    {
+      "name": "Papua New Guinea",
+      "currency": "PGK",
+      "iso2": "PG",
+      "iso3": "PNG"
+    }
+  ],
+  "error": false,
+  "msg": "some mock success message"
+}

@@ -1,0 +1,136 @@
+body,
+html {
+  font-size: 15px;
+  font-family: 'Helvetica';
+  padding: 0 40px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 15px;
+}
+.up {
+  border-bottom: 5px solid #999;
+}
+.down {
+  border-top: 5px solid #999;
+}
+
+.sortable-header button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #555;
+  white-space: nowrap;
+  padding: 8px 0;
+  cursor: pointer;
+  width: 100%;
+}
+.sortable-header button:hover,
+.sortable-header button:focus {
+  color: #111;
+  transition: 150ms;
+}
+.sortable-header button.active-sort {
+  color: #5a5;
+}
+
+.filter {
+  margin: 20px 0;
+  padding: 8px 10px;
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.countries-list-wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+.scroller {
+  width: 580px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  height: 100%;
+  max-height: 85vh;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-right: 1px solid #999;
+}
+.row.selected {
+  background-color: #9d9 !important;
+}
+.row {
+  border-bottom: 1px solid #999;
+}
+.row:nth-child(even) {
+  background-color: #eaeaea;
+}
+.col {
+  padding: 8px 10px;
+  text-align: left;
+}
+.population {
+  text-align: right;
+}
+.data-display-wrapper {
+  display: flex;
+}
+
+.country-details-panel {
+  border: 1px solid #999;
+  border-radius: 2px;
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  flex-grow: 1;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+}
+
+.country-details-panel td {
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 150px;
+}
+.spinning-thing {
+  width: 40px;
+  height: 2px;
+  background-color: lightgray;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.show-details-button {
+  border: none;
+  background-color: transparent;
+  color: navy;
+  cursor: pointer;
+}
+
+.show-details-button.active {
+  font-weight: bold;
+}

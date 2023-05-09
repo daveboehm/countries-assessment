@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "name": "Belgium",
+      "capital": "Brussels",
+      "iso2": "BE",
+      "iso3": "BEL"
+    },
+
+    {
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "iso2": "PG",
+      "iso3": "PNG"
+    },
+    {
+      "name": "Canada",
+      "capital": "Ottawa",
+      "iso2": "CA",
+      "iso3": "CAN"
+    }
+  ],
+  "error": false,
+  "msg": "some mock success message"
+}

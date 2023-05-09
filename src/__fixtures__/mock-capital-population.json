@@ -1,0 +1,16 @@
+{
+  "error": false,
+  "msg": "ottawa with population",
+  "data": {
+    "city": "Ottawa",
+    "country": "Canada",
+    "populationCounts": [
+      {
+        "year": "1991",
+        "value": "883395",
+        "sex": "Both Sexes",
+        "reliabilty": "Final figure, complete"
+      }
+    ]
+  }
+}
