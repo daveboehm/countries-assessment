@@ -23,14 +23,14 @@ export const ShowDetails = (props: ShowDetailsProps) => {
         countryCode,
         capitalPopulation,
         currency,
-        isLoading: false
+        isLoading: false,
       });
     } catch (err) {
       console.log(err);
       setSelectedCountry({
         ...emptyCountryDetails,
         isLoading: false,
-        countryName: `Could not fetch data for ${capital}`
+        errorMsg: `Could not fetch data for ${capital}`
       });
     }
   }, [capital]);

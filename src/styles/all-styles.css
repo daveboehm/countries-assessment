@@ -106,7 +106,7 @@ html {
   display: flex;
   flex-grow: 1;
   max-width: 400px;
-  height: 200px;
+  height: 120px;
   justify-content: space-around;
   align-items: center;
   font-size: 13px;
@@ -116,6 +116,10 @@ html {
   white-space: nowrap;
   overflow: hidden;
   min-width: 150px;
+}
+
+.error {
+  color: #600;
 }
 
 .spinning-thing {

@@ -61,4 +61,5 @@ export type CountryDetails = {
   capitalPopulation: number;
   currency: string;
   isLoading: boolean;
+  errorMsg?: string | undefined;
 };
