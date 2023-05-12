@@ -2,6 +2,7 @@ import React, { useCallback } from 'react';
 import { FormattedCountriesType } from '../types';
 import { fetchCapitalCityData } from '../service/countries';
 import { emptyCountryDetails } from '../constants';
+import '../styles/show-details.scss';
 
 type ShowDetailsProps = {
   data: FormattedCountriesType;
@@ -23,7 +24,7 @@ export const ShowDetails = (props: ShowDetailsProps) => {
         countryCode,
         capitalPopulation,
         currency,
-        isLoading: false,
+        isLoading: false
       });
     } catch (err) {
       console.log(err);

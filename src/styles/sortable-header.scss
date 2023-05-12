@@ -1,0 +1,37 @@
+@import './scss-vars.scss';
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 15px;
+  &.up {
+    border-bottom: 5px solid $borderColor;
+  }
+  &.down {
+    border-top: 5px solid $borderColor;
+  }
+}
+
+.sortable-header {
+  button {
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    color: $textColor;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 100%;
+    &:hover,
+    &:focus {
+      color: #111;
+      transition: 150ms;
+    }
+    &.active-sort {
+      color: $activeSortColor;
+    }
+  }
+}

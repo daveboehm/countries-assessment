@@ -1,0 +1,25 @@
+$borderColor: #999;
+$textColor: #666;
+$activeSortColor: #5a5;
+$selectedRowBGColor: #9d9;
+$detailsButtonColor: navy;
+$borderStripe: #eaeaea;
+
+.flex {
+  display: flex;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-text {
+  padding: 8px 10px;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}

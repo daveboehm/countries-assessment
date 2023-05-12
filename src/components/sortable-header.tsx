@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FormattedCountriesType } from '../types';
+import '../styles/sortable-header.scss';
 
 type SortableHeaderProps = {
   columnName: keyof FormattedCountriesType;
@@ -27,7 +28,7 @@ export const SortableHeader = (props: SortableHeaderProps) => {
     <div className="sortable-header">
       <button
         type="button"
-        className={isCurrentSortedColumn ? 'active-sort' : ''}
+        className={`flex p-text text-left ${isCurrentSortedColumn ? 'active-sort' : ''}`}
         onClick={() => handleClick(columnName)}
       >
         {columnText} {sortArrow}

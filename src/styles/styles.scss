@@ -1,0 +1,9 @@
+@import './scss-vars.scss';
+
+body,
+html {
+  font-size: 15px;
+  font-family: 'Helvetica';
+  padding: 0 40px;
+  color: $textColor;
+}

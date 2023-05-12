@@ -1,0 +1,11 @@
+@import './scss-vars.scss';
+
+.show-details-button {
+  border: none;
+  background-color: transparent;
+  color: $detailsButtonColor;
+  cursor: pointer;
+  &.active {
+    font-weight: bold;
+  }
+}

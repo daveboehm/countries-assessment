@@ -1,0 +1,44 @@
+@import './scss-vars.scss';
+
+.country-details-panel {
+  border: 1px solid $borderColor;
+  border-radius: 2px;
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  flex-grow: 1;
+  max-width: 400px;
+  height: 120px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+}
+
+.country-details-panel td {
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 150px;
+}
+
+.error {
+  color: #600;
+}
+
+.spinning-thing {
+  width: 40px;
+  height: 2px;
+  background-color: lightgray;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

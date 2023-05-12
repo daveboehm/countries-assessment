@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchAllCountriesData } from './service/countries';
 import { CountriesList } from './components/countries-list';
 import { FormattedCountriesType } from './types';
-import './styles/all-styles.css';
+import './styles/styles.scss';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

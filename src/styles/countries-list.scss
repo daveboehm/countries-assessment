@@ -1,0 +1,48 @@
+@import './scss-vars.scss';
+
+.filter {
+  margin: 20px 0;
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.countries-list-wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.scroller {
+  width: 580px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  height: 100%;
+  max-height: 85vh;
+  border: 1px solid $borderColor;
+  border-radius: 2px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-right: 1px solid $borderColor;
+}
+
+.row {
+  border-bottom: 1px solid $borderColor;
+  &.selected {
+    background-color: $selectedRowBGColor !important;
+  }
+}
+
+.row:nth-child(even) {
+  background-color: $borderStripe;
+}
+
+.col {
+  text-align: left;
+}
+
+.population {
+  text-align: right;
+}

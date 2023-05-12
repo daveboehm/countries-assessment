@@ -4,6 +4,7 @@ import { SortableHeader } from './sortable-header';
 import { ShowDetails } from './show-details';
 import { CountryDetailsPanel } from './country-details-panel';
 import { emptyCountryDetails, tableConfig } from '../constants';
+import '../styles/countries-list.scss';
 
 type CountriesListProps = {
   data: FormattedCountriesType[] | undefined;
@@ -49,12 +50,12 @@ export const CountriesList = (props: CountriesListProps) => {
       <input
         type="text"
         data-testid="filter-input"
-        className="filter"
+        className="filter p-text"
         placeholder="Filter by country name or code"
         onChange={e => setFilterTerm(e.target.value)}
       />
 
-      <div className="data-display-wrapper">
+      <div className="flex">
         <div className="scroller">
           <table className="table">
             <thead>
@@ -78,11 +79,11 @@ export const CountriesList = (props: CountriesListProps) => {
                   className={`row ${row.countryCode === selectedCountry?.countryCode ? 'selected' : ''}`}
                   key={row.countryCode}
                 >
-                  <td className="col countryName">
+                  <td className="text-left">
                     <ShowDetails data={row} onClick={setSelectedCountry} />
                   </td>
-                  <td className="col countryCode">{row.countryCode}</td>
-                  <td className="col population">{row.population.toLocaleString('en-US')}</td>
+                  <td className="text-left p-text">{row.countryCode}</td>
+                  <td className="text-right p-text">{row.population.toLocaleString('en-US')}</td>
                 </tr>
               ))}
             </tbody>
