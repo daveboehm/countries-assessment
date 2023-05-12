@@ -40,6 +40,7 @@ export const fetchCapitalCityData = async (city: string): Promise<number> => {
     throw Error(`Error fetching capital city data for ${city}.`);
   });
 
+  // .slice(-1)[0] is a little bit of a hack to get the last index of an array. It works great though!
   return capitalCityData.data.populationCounts.slice(-1)[0].value;
 };
 export const fetchAllCountriesData = async (): Promise<FormattedCountriesType[]> => {

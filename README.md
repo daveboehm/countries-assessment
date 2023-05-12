@@ -20,14 +20,8 @@ package.
 
 ### Styling
 Surprising, I know, but I am not a designer. This is a pretty bare-bones design, but everything is easily readable and 
-interact-able (don't think that's a word). If this were a larger project, I definitely would've used Sass or Less with 
-a pre-processor. I simply decided against spending the time to do so, but if anyone doubts I am able to do that or 
-wants to see it done, I will happily make the addition. 
-
-In the real world, I use more generic class names like `flex justify-between border-left` instead of incredibly 
-specific id-like classNames. Reason being is that I did not want to spend the time creating all of those classes when 
-they'd likely only be used once or twice. I think generic, composable, and easily reusable classes are the strength of 
-CSS (maybe its only strength...?). 
+usable. I've included sass here, although I find it a bit overkill for a project of this size. Create React App also 
+seems to have strong opinions on how you use sass, which came as a small surprise to me. No biggie though. 
 
 ### Testing
 I added MSW to mock endpoints. This library has become near and dear to me of late, and it allows for such an 

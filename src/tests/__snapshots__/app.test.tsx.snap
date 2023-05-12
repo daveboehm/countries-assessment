@@ -7,13 +7,13 @@ exports[`<App /> should display selected country's details 1`] = `
       class="countries-list-wrapper"
     >
       <input
-        class="filter"
+        class="filter p-text"
         data-testid="filter-input"
         placeholder="Filter by country name or code"
         type="text"
       />
       <div
-        class="data-display-wrapper"
+        class="flex"
       >
         <div
           class="scroller"
@@ -32,7 +32,7 @@ exports[`<App /> should display selected country's details 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class="active-sort"
+                      class="flex p-text text-left active-sort"
                       type="button"
                     >
                       Name
@@ -50,7 +50,7 @@ exports[`<App /> should display selected country's details 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class=""
+                      class="flex p-text text-left "
                       type="button"
                     >
                       Code
@@ -68,7 +68,7 @@ exports[`<App /> should display selected country's details 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class=""
+                      class="flex p-text text-left "
                       type="button"
                     >
                       Population
@@ -86,7 +86,7 @@ exports[`<App /> should display selected country's details 1`] = `
                 class="row "
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -96,12 +96,12 @@ exports[`<App /> should display selected country's details 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   BEL
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   1,000
                 </td>
@@ -110,7 +110,7 @@ exports[`<App /> should display selected country's details 1`] = `
                 class="row selected"
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -120,12 +120,12 @@ exports[`<App /> should display selected country's details 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   CAN
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   500
                 </td>
@@ -134,7 +134,7 @@ exports[`<App /> should display selected country's details 1`] = `
                 class="row "
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -144,12 +144,12 @@ exports[`<App /> should display selected country's details 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   PNG
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   400
                 </td>
@@ -231,13 +231,13 @@ exports[`<App /> should match snapshot 1`] = `
       class="countries-list-wrapper"
     >
       <input
-        class="filter"
+        class="filter p-text"
         data-testid="filter-input"
         placeholder="Filter by country name or code"
         type="text"
       />
       <div
-        class="data-display-wrapper"
+        class="flex"
       >
         <div
           class="scroller"
@@ -256,7 +256,7 @@ exports[`<App /> should match snapshot 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class="active-sort"
+                      class="flex p-text text-left active-sort"
                       type="button"
                     >
                       Name
@@ -274,7 +274,7 @@ exports[`<App /> should match snapshot 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class=""
+                      class="flex p-text text-left "
                       type="button"
                     >
                       Code
@@ -292,7 +292,7 @@ exports[`<App /> should match snapshot 1`] = `
                     class="sortable-header"
                   >
                     <button
-                      class=""
+                      class="flex p-text text-left "
                       type="button"
                     >
                       Population
@@ -310,7 +310,7 @@ exports[`<App /> should match snapshot 1`] = `
                 class="row "
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -320,12 +320,12 @@ exports[`<App /> should match snapshot 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   BEL
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   1,000
                 </td>
@@ -334,7 +334,7 @@ exports[`<App /> should match snapshot 1`] = `
                 class="row "
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -344,12 +344,12 @@ exports[`<App /> should match snapshot 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   CAN
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   500
                 </td>
@@ -358,7 +358,7 @@ exports[`<App /> should match snapshot 1`] = `
                 class="row "
               >
                 <td
-                  class="col countryName"
+                  class="text-left"
                 >
                   <button
                     class="show-details-button"
@@ -368,12 +368,12 @@ exports[`<App /> should match snapshot 1`] = `
                   </button>
                 </td>
                 <td
-                  class="col countryCode"
+                  class="text-left p-text"
                 >
                   PNG
                 </td>
                 <td
-                  class="col population"
+                  class="text-right p-text"
                 >
                   400
                 </td>
